@@ -1110,7 +1110,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "C1 - MLASE168BB7225KTNA01\nC2 - MAJCU168BB7104KTEA01\nC3 - GRM188C81A226ME01D\nD1 - LS Q976.01-N1Q2-1\nL1 - ???\nR1 - ERJ-PA3F69R8V\nR2 - ERJ-P03F6802V\nR3 - SFR03EZPJ680\nU1 - LMR54410DBVR"
+	(text "C1 - MLASE168BB7225KTNA01\nC2 - MAJCU168BB7104KTEA01\nC3 - GRM188C81A226ME01D\nD1 - LS Q976.01-N1Q2-1\nL1 - LPS4012-103MRC\nR1 - ERJ-PA3F69R8V\nR2 - ERJ-P03F6802V\nR3 - SFR03EZPJ680\nU1 - LMR54410DBVR"
 		(exclude_from_sim no)
 		(at 101.854 25.654 0)
 		(effects
@@ -1709,7 +1709,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68O"
+		(property "Value" "68o"
 			(at 90.17 27.9399 0)
 			(effects
 				(font
@@ -2133,7 +2133,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22.1kO"
+		(property "Value" "22.1ko"
 			(at 78.74 48.2599 0)
 			(effects
 				(font
@@ -2272,7 +2272,7 @@
 				)
 			)
 		)
-		(property "Value" "15uH"
+		(property "Value" "10uH"
 			(at 68.58 39.37 90)
 			(effects
 				(font
@@ -2544,7 +2544,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "69.8kO"
+		(property "Value" "69.8ko"
 			(at 78.74 58.4199 0)
 			(effects
 				(font
