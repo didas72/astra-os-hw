@@ -406,6 +406,332 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Antenna_Shield"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AE"
+				(at -1.905 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Antenna_Shield"
+				(at -1.905 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Antenna with extra pin for shielding"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Antenna_Shield_0_1"
+				(arc
+					(start 0 -2.667)
+					(mid -0.8485 -2.1032)
+					(end -0.508 -1.143)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 -1.143)
+					(mid 0.8046 -2.0885)
+					(end 0 -2.667)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.905) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.762 -1.905)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0 0) (xy -1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Antenna_Shield_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MC3419:MC3419"
 			(pin_names
 				(offset 0.254)
@@ -2832,9 +3158,37 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 189.23 83.82)
+		(uuid "7773083b-fa8a-4cef-9e55-9da44d35472b")
+	)
+	(no_connect
+		(at 189.23 86.36)
+		(uuid "88446abb-b664-4760-950f-c4abda81f058")
+	)
+	(no_connect
+		(at 97.79 123.19)
+		(uuid "8a04020a-f172-4148-b57b-dad87d484e7c")
+	)
+	(no_connect
+		(at 97.79 135.89)
+		(uuid "a80dc196-20ea-442a-8912-7bc1f34fab0c")
+	)
+	(no_connect
+		(at 67.31 118.11)
+		(uuid "aa45f9f5-2c88-4a20-98c4-b6a52c502944")
+	)
+	(no_connect
+		(at 67.31 140.97)
+		(uuid "af0c597b-528d-491e-be80-1bbb56f743ae")
+	)
+	(no_connect
+		(at 67.31 120.65)
+		(uuid "b1055c16-9845-4987-8728-908769a448f2")
+	)
 	(global_label "3V3"
 		(shape input)
-		(at 80.01 110.49 90)
+		(at 80.01 105.41 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2844,12 +3198,56 @@
 		)
 		(uuid "09bbef25-f7cb-488c-957b-8b4c5ed0b361")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.01 103.9972 90)
+			(at 80.01 98.9172 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI2_MOSI"
+		(shape input)
+		(at 189.23 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15fd0b34-3be2-461a-b6d1-82120a19f46e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.3872 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MUX_WITH_THREE_1"
+		(shape input)
+		(at 67.31 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2fa3eb7b-186c-4aec-b004-82ee5f97ead2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.0007 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2889,6 +3287,28 @@
 		(uuid "532fccb4-122f-4ef7-9709-e0bf9735fa65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 18.6653 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MUX_WITH_THREE_2"
+		(shape input)
+		(at 67.31 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "573c03b1-bb66-4a56-a0f2-1411cbc0b90e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.0007 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2964,7 +3384,7 @@
 			)
 		)
 	)
-	(global_label "RESET"
+	(global_label "GPIO_RESET_VOICES"
 		(shape input)
 		(at 55.88 138.43 180)
 		(fields_autoplaced yes)
@@ -2976,7 +3396,7 @@
 		)
 		(uuid "7848e91c-fad6-4c4c-9869-8b73797448ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.1497 138.43 0)
+			(at 34.0868 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3096,9 +3516,31 @@
 			)
 		)
 	)
+	(global_label "SPI2_MISO"
+		(shape input)
+		(at 189.23 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad787562-fc6c-4e3c-a84b-2d5f06e361be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.3872 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3V3"
 		(shape input)
-		(at 77.47 110.49 90)
+		(at 77.47 105.41 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3108,7 +3550,7 @@
 		)
 		(uuid "c843b53a-0278-45bc-a6c1-b992497d668a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 103.9972 90)
+			(at 77.47 98.9172 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3136,6 +3578,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 240.03 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e33477b9-ab9f-4bc5-a018-3451e528b402")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.5228 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3257,6 +3721,73 @@
 			(project ""
 				(path "/a6d66407-49bd-4b68-89a4-1575c3290dd0"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11a97f43-3b41-4105-ae1f-3e5406d7a17b")
+		(property "Reference" "#PWR06"
+			(at 182.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11c0c1ab-5526-4e27-a053-062ce5ef177c")
+		)
+		(instances
+			(project "astra-nucleo-hat"
+				(path "/a6d66407-49bd-4b68-89a4-1575c3290dd0"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4020,6 +4551,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 62.23 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "663c2311-1660-4f91-84ed-6bad69ff8eda")
+		(property "Reference" "R1"
+			(at 62.23 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 62.23 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 136.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 62.23 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b55e3809-bf72-4635-a49e-e93d86190d9f")
+		)
+		(pin "1"
+			(uuid "9c641a99-6a18-4b83-9e32-d2d8ae6176f0")
+		)
+		(instances
+			(project ""
+				(path "/a6d66407-49bd-4b68-89a4-1575c3290dd0"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 29.21 90)
 		(unit 1)
@@ -4199,6 +4798,76 @@
 			(project ""
 				(path "/a6d66407-49bd-4b68-89a4-1575c3290dd0"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna_Shield")
+		(at 102.87 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acd867a4-0961-4c48-9242-792ada326749")
+		(property "Reference" "AE1"
+			(at 109.22 127.5714 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna_Shield"
+			(at 109.22 130.1114 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antenna with extra pin for shielding"
+			(at 102.87 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "154fede6-d009-4566-b171-edc58390efe4")
+		)
+		(pin "2"
+			(uuid "0fa34085-c84b-4c52-86a2-4479b4929f86")
+		)
+		(instances
+			(project ""
+				(path "/a6d66407-49bd-4b68-89a4-1575c3290dd0"
+					(reference "AE1")
 					(unit 1)
 				)
 			)
@@ -4448,232 +5117,232 @@
 			)
 		)
 		(pin "CN7_6"
-			(uuid "17acda15-9ff5-4fd8-aec2-b22222a0eeb4")
+			(uuid "17acda15-9ff5-4fd8-aec2-b22222a0eeb5")
 		)
 		(pin "CN7_38"
-			(uuid "cb5e449d-bf37-456b-8c78-5da0a603334d")
+			(uuid "cb5e449d-bf37-456b-8c78-5da0a603334e")
 		)
 		(pin "CN10_38"
-			(uuid "faeef2b8-2bea-4067-9496-52f0acd4219c")
+			(uuid "faeef2b8-2bea-4067-9496-52f0acd4219d")
 		)
 		(pin "CN7_37"
-			(uuid "9e29659d-5992-4cf3-841b-d7df65b88a6c")
+			(uuid "9e29659d-5992-4cf3-841b-d7df65b88a6d")
 		)
 		(pin "CN7_8"
-			(uuid "7baa03b3-223a-4a75-85c3-23c656761321")
+			(uuid "7baa03b3-223a-4a75-85c3-23c656761322")
 		)
 		(pin "CN7_12"
-			(uuid "72fd801a-0655-443a-b8f4-09667c41d594")
+			(uuid "72fd801a-0655-443a-b8f4-09667c41d595")
 		)
 		(pin "CN7_9"
-			(uuid "409a2bfd-ae6a-4379-adce-0d818ebb8554")
+			(uuid "409a2bfd-ae6a-4379-adce-0d818ebb8555")
 		)
 		(pin "CN7_7"
-			(uuid "b30626d1-76e3-4ec2-879f-cbb276ccf270")
+			(uuid "b30626d1-76e3-4ec2-879f-cbb276ccf271")
 		)
 		(pin "CN7_15"
-			(uuid "4cbb9186-c2d4-49a7-97e5-08bc4d418996")
+			(uuid "4cbb9186-c2d4-49a7-97e5-08bc4d418997")
 		)
 		(pin "CN7_27"
-			(uuid "2a198c57-2d76-4515-a4fd-18c10c4ef584")
+			(uuid "2a198c57-2d76-4515-a4fd-18c10c4ef585")
 		)
 		(pin "CN7_29"
-			(uuid "209ddc8b-6671-49fa-811d-eccfdb2872ae")
+			(uuid "209ddc8b-6671-49fa-811d-eccfdb2872af")
 		)
 		(pin "CN7_25"
-			(uuid "ffbe9cfb-b4be-4708-a66d-435dec9d5cee")
+			(uuid "ffbe9cfb-b4be-4708-a66d-435dec9d5cef")
 		)
 		(pin "CN10_3"
-			(uuid "7c1c38fc-c05d-4dfa-b5e2-e988b4f0983b")
+			(uuid "7c1c38fc-c05d-4dfa-b5e2-e988b4f0983c")
 		)
 		(pin "CN7_19"
-			(uuid "491154f5-318f-4114-8fee-a1767a117b02")
+			(uuid "491154f5-318f-4114-8fee-a1767a117b03")
 		)
 		(pin "CN10_2"
-			(uuid "c54734ad-8e61-452e-9705-b80ce23f4ff5")
+			(uuid "c54734ad-8e61-452e-9705-b80ce23f4ff6")
 		)
 		(pin "CN10_5"
-			(uuid "fe17afd7-2a55-4029-a7e1-dc95697e51e5")
+			(uuid "fe17afd7-2a55-4029-a7e1-dc95697e51e6")
 		)
 		(pin "CN7_5"
-			(uuid "2813381a-762a-46f2-a3b5-a1005d1b1e7e")
+			(uuid "2813381a-762a-46f2-a3b5-a1005d1b1e7f")
 		)
 		(pin "CN7_11"
-			(uuid "5c13eca4-4642-4efc-b007-2fc10842d6d9")
+			(uuid "5c13eca4-4642-4efc-b007-2fc10842d6da")
 		)
 		(pin "CN10_28"
-			(uuid "4781c5ad-510e-4237-929d-1afe7fd51515")
+			(uuid "4781c5ad-510e-4237-929d-1afe7fd51516")
 		)
 		(pin "CN7_1"
-			(uuid "26f41442-b17d-47df-8714-2c33ed17c116")
+			(uuid "26f41442-b17d-47df-8714-2c33ed17c117")
 		)
 		(pin "CN10_15"
-			(uuid "8a4260b8-76e1-4f93-b800-e6b8a26068d8")
+			(uuid "8a4260b8-76e1-4f93-b800-e6b8a26068d9")
 		)
 		(pin "CN10_19"
-			(uuid "80ba36ad-6e2a-4581-905a-455c2e84b7f1")
+			(uuid "80ba36ad-6e2a-4581-905a-455c2e84b7f2")
 		)
 		(pin "CN10_29"
-			(uuid "c420818e-c243-48ab-a683-69399cf40087")
+			(uuid "c420818e-c243-48ab-a683-69399cf40088")
 		)
 		(pin "CN7_33"
-			(uuid "abda25df-9137-4453-847a-c3cad1ec8950")
+			(uuid "abda25df-9137-4453-847a-c3cad1ec8951")
 		)
 		(pin "CN7_36"
-			(uuid "7327074b-61e5-415e-bdb9-7cc52ee1dd1d")
+			(uuid "7327074b-61e5-415e-bdb9-7cc52ee1dd1e")
 		)
 		(pin "CN10_11"
-			(uuid "cddbfb4c-65cd-406e-9647-98bb8b4e26ad")
+			(uuid "cddbfb4c-65cd-406e-9647-98bb8b4e26ae")
 		)
 		(pin "CN7_3"
-			(uuid "e176b76d-a59a-4300-ace5-9e40fc29f4db")
+			(uuid "e176b76d-a59a-4300-ace5-9e40fc29f4dc")
 		)
 		(pin "CN10_17"
-			(uuid "d2beb89c-8769-4e05-8fc2-9041d321d722")
+			(uuid "d2beb89c-8769-4e05-8fc2-9041d321d723")
 		)
 		(pin "CN10_27"
-			(uuid "bd0e9b26-6be4-4fa2-999f-e87144c4d241")
+			(uuid "bd0e9b26-6be4-4fa2-999f-e87144c4d242")
 		)
 		(pin "CN7_21"
-			(uuid "6e166731-4a15-4bed-95fe-316828792986")
+			(uuid "6e166731-4a15-4bed-95fe-316828792987")
 		)
 		(pin "CN10_7"
-			(uuid "7205bf28-c332-499b-8797-0ca8671bde25")
+			(uuid "7205bf28-c332-499b-8797-0ca8671bde26")
 		)
 		(pin "CN10_30"
-			(uuid "12682156-3263-4b27-a297-e28886b72307")
+			(uuid "12682156-3263-4b27-a297-e28886b72308")
 		)
 		(pin "CN7_24"
-			(uuid "79c9d81c-87c3-4688-bc5a-04d0dad77c38")
+			(uuid "79c9d81c-87c3-4688-bc5a-04d0dad77c39")
 		)
 		(pin "CN7_26"
-			(uuid "8500fbb3-a38d-428c-af22-3613343e4e6c")
+			(uuid "8500fbb3-a38d-428c-af22-3613343e4e6d")
 		)
 		(pin "CN7_23"
-			(uuid "325ba024-089e-42f6-a9bb-9c441e82baf5")
+			(uuid "325ba024-089e-42f6-a9bb-9c441e82baf6")
 		)
 		(pin "CN10_13"
-			(uuid "142d7542-5d89-451d-8390-0599c2163454")
+			(uuid "142d7542-5d89-451d-8390-0599c2163455")
 		)
 		(pin "CN10_23"
-			(uuid "1d6ac9ae-7c0c-4417-af58-fdf391f44ee6")
+			(uuid "1d6ac9ae-7c0c-4417-af58-fdf391f44ee7")
 		)
 		(pin "CN10_31"
-			(uuid "485238ec-060c-454d-a12c-6b21b7eb4720")
+			(uuid "485238ec-060c-454d-a12c-6b21b7eb4721")
 		)
 		(pin "CN10_25"
-			(uuid "e50c3b49-68ac-4b19-a483-eda7868b89e0")
+			(uuid "e50c3b49-68ac-4b19-a483-eda7868b89e1")
 		)
 		(pin "CN7_18"
-			(uuid "43981808-2d6d-46c8-9eb7-5dc2bbfcc1ff")
+			(uuid "43981808-2d6d-46c8-9eb7-5dc2bbfcc200")
 		)
 		(pin "CN7_22"
-			(uuid "1dedbbb1-5f1a-41a0-bbf9-e9bae4c35f26")
+			(uuid "1dedbbb1-5f1a-41a0-bbf9-e9bae4c35f27")
 		)
 		(pin "CN7_20"
-			(uuid "0c8dd079-94a7-4cb0-b1c0-838f53dd0aaf")
+			(uuid "0c8dd079-94a7-4cb0-b1c0-838f53dd0ab0")
 		)
 		(pin "CN10_34"
-			(uuid "22b0482a-96a4-4f26-baec-37dc3b236c24")
+			(uuid "22b0482a-96a4-4f26-baec-37dc3b236c25")
 		)
 		(pin "CN10_12"
-			(uuid "4f94e151-608f-4ccf-a83d-f44705de9ac7")
+			(uuid "4f94e151-608f-4ccf-a83d-f44705de9ac8")
 		)
 		(pin "CN10_22"
-			(uuid "5355b086-8304-4d5c-a250-e4a5936ac95c")
+			(uuid "5355b086-8304-4d5c-a250-e4a5936ac95d")
 		)
 		(pin "CN10_4"
-			(uuid "669f1dea-d3d7-4ac0-96a3-32d65358b051")
+			(uuid "669f1dea-d3d7-4ac0-96a3-32d65358b052")
 		)
 		(pin "CN10_26"
-			(uuid "67bda2b0-b393-4a63-bbde-0b3d669a6c0b")
+			(uuid "67bda2b0-b393-4a63-bbde-0b3d669a6c0c")
 		)
 		(pin "CN10_9"
-			(uuid "f73f01f5-4ec8-4474-9012-3e09a39b1b49")
+			(uuid "f73f01f5-4ec8-4474-9012-3e09a39b1b4a")
 		)
 		(pin "CN10_24"
-			(uuid "2878a632-85c2-4033-a31d-a8472ed6b040")
+			(uuid "2878a632-85c2-4033-a31d-a8472ed6b041")
 		)
 		(pin "CN10_1"
-			(uuid "c449548b-1f88-4b91-a487-06b01a5154d1")
+			(uuid "c449548b-1f88-4b91-a487-06b01a5154d2")
 		)
 		(pin "CN7_16"
-			(uuid "abeef4f2-699b-451a-90cb-8fed75121781")
+			(uuid "abeef4f2-699b-451a-90cb-8fed75121782")
 		)
 		(pin "CN10_32"
-			(uuid "8d11d3c5-fe68-4ea9-a73f-0ed35fefd5c5")
+			(uuid "8d11d3c5-fe68-4ea9-a73f-0ed35fefd5c6")
 		)
 		(pin "CN10_36"
-			(uuid "68b44fff-5b1f-4d05-a73b-9809231557d5")
+			(uuid "68b44fff-5b1f-4d05-a73b-9809231557d6")
 		)
 		(pin "CN10_21"
-			(uuid "7010dc39-0bc7-4fb0-8b5d-08f2d67d8a59")
+			(uuid "7010dc39-0bc7-4fb0-8b5d-08f2d67d8a5a")
 		)
 		(pin "CN7_2"
-			(uuid "cf48f942-568e-4efb-9e93-5f721ce3af4e")
+			(uuid "cf48f942-568e-4efb-9e93-5f721ce3af4f")
 		)
 		(pin "CN7_30"
-			(uuid "a71d08d8-b55c-4892-98e8-6b8025058d61")
+			(uuid "a71d08d8-b55c-4892-98e8-6b8025058d62")
 		)
 		(pin "CN7_17"
-			(uuid "a8394d9d-e27d-40dd-ba00-4c77e048d5fd")
+			(uuid "a8394d9d-e27d-40dd-ba00-4c77e048d5fe")
 		)
 		(pin "CN10_8"
-			(uuid "9cd893be-24df-41d4-994c-f64189596604")
+			(uuid "9cd893be-24df-41d4-994c-f64189596605")
 		)
 		(pin "CN7_28"
-			(uuid "a8b096df-2943-46b3-8791-028a72f83d7e")
+			(uuid "a8b096df-2943-46b3-8791-028a72f83d7f")
 		)
 		(pin "CN10_20"
-			(uuid "95ff14d5-9ca2-4057-ba53-3af03f1594e6")
+			(uuid "95ff14d5-9ca2-4057-ba53-3af03f1594e7")
 		)
 		(pin "CN10_33"
-			(uuid "590dd563-a3e9-44b1-a884-ba63854a2f00")
+			(uuid "590dd563-a3e9-44b1-a884-ba63854a2f01")
 		)
 		(pin "CN7_34"
-			(uuid "59c6822e-44c8-4f93-9b78-9a58d9e75445")
+			(uuid "59c6822e-44c8-4f93-9b78-9a58d9e75446")
 		)
 		(pin "CN7_14"
-			(uuid "c4dce6b5-f46c-425a-9362-d0c5de9a46e3")
+			(uuid "c4dce6b5-f46c-425a-9362-d0c5de9a46e4")
 		)
 		(pin "CN10_18"
-			(uuid "20469640-fd1c-4579-81b2-c0ebb66e8d08")
+			(uuid "20469640-fd1c-4579-81b2-c0ebb66e8d09")
 		)
 		(pin "CN10_35"
-			(uuid "2b72e157-5d8f-4b3f-b3c6-45d040a7eadf")
+			(uuid "2b72e157-5d8f-4b3f-b3c6-45d040a7eae0")
 		)
 		(pin "CN7_31"
-			(uuid "defb6053-87c8-4a56-ba37-cce2d562323f")
+			(uuid "defb6053-87c8-4a56-ba37-cce2d5623240")
 		)
 		(pin "CN7_35"
-			(uuid "4faeb4da-0d5a-43fa-a2a7-a92a6ac18d3a")
+			(uuid "4faeb4da-0d5a-43fa-a2a7-a92a6ac18d3b")
 		)
 		(pin "CN10_6"
-			(uuid "9064b4c8-0f01-435b-adfe-272ecd49d283")
+			(uuid "9064b4c8-0f01-435b-adfe-272ecd49d284")
 		)
 		(pin "CN7_4"
-			(uuid "016bafc0-3527-43cd-b335-9a91191c85fb")
+			(uuid "016bafc0-3527-43cd-b335-9a91191c85fc")
 		)
 		(pin "CN10_14"
-			(uuid "01bd1247-665e-45d0-975e-6425bc61eb86")
+			(uuid "01bd1247-665e-45d0-975e-6425bc61eb87")
 		)
 		(pin "CN10_16"
-			(uuid "bd99d151-e48b-4ba3-bb95-4ed533024045")
+			(uuid "bd99d151-e48b-4ba3-bb95-4ed533024046")
 		)
 		(pin "CN7_13"
-			(uuid "cb62ce51-c8ec-4299-9be5-7e388122ef00")
+			(uuid "cb62ce51-c8ec-4299-9be5-7e388122ef01")
 		)
 		(pin "CN7_32"
-			(uuid "4071d51c-002f-4167-9110-f525400db0b3")
+			(uuid "4071d51c-002f-4167-9110-f525400db0b4")
 		)
 		(pin "CN7_10"
-			(uuid "9f7ab136-25d9-4962-9e31-6ce70f7a7126")
+			(uuid "9f7ab136-25d9-4962-9e31-6ce70f7a7127")
 		)
 		(pin "CN10_10"
-			(uuid "6a6b2ce2-11d4-4a2a-8ab1-403d1e2d7f56")
+			(uuid "6a6b2ce2-11d4-4a2a-8ab1-403d1e2d7f57")
 		)
 		(pin "CN10_37"
-			(uuid "dd1cbc20-7fc0-4916-8618-91a1300ae906")
+			(uuid "dd1cbc20-7fc0-4916-8618-91a1300ae907")
 		)
 		(instances
 			(project ""
